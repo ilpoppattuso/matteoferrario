@@ -1,0 +1,164 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cursor {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 10000;
+    transition: transform 0.1s ease, opacity 0.3s ease;
+}
+
+.cursor.hidden {
+    opacity: 0;
+}
+
+.left-panel {
+    width: 30%;
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: 2px solid #284b63;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: var(--accent);
+    text-transform: lowercase;
+    margin-bottom: 20px;
+}
+
+.file {
+    padding: 10px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    cursor: none;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
+
+.file:hover {
+    background-color: #4a9eff;
+}
+
+.right-panel {
+    width: 70%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    width: 90%;
+    height: 90%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 1rem;
+    overflow-y: hidden;
+}
+
+.content-box.hidden {
+    display: none;
+}
+
+.description-writing {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.github-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.github-link {
+    padding: 10px 20px;
+    background-color: #4a9eff;
+    color: #0a0a0a;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.github-link:hover {
+    background-color: color-mix(in srgb, #4a9eff 80%, white);
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #4a9eff;
+    transform: scale(1.05);
+}
+
+/* Rimuovi i pallini per le cartelle e i file */
+#file-tree ul {
+    list-style: none;
+    padding: 0;
+}
+
+#file-tree li {
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+#file-tree li.folder {
+    font-weight: bold;
+    color: var(--text-secondary);
+}
+
+#file-tree li.file {
+    color: var(--text-primary);
+}
+
+#file-tree li:hover {
+    background-color: rgba(74, 158, 255, 0.2);
+    transform: scale(1.02); /* Ridotto lo zoom */
+}
+
+#file-tree li.active {
+    background-color: rgba(74, 158, 255, 0.5);
+}

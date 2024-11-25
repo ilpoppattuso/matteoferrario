@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math & physics - project 3</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/pr3.css">
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <!-- File Explorer -->
+    <div class="left-panel">
+        <h2 class="title">file explorer</h2>
+        <ul id="file-tree">
+            <li class="file" id="introduction" data-type="text">introduction.txt</li>
+            <li class="folder" data-type="folder" id="files-folder">
+                <p id="ul-text">files</p>
+                <ul class="folder-content">
+                    <li class="file pdf" data-src="../media/pr3/pdf1.pdf">file 1.pdf</li>
+                    <li class="file pdf" data-src="../media/pr3/pdf2.pdf">file 2.pdf</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Content Area -->
+    <div class="right-panel">
+        <div class="content-box" id="combined-container">
+            <div id="description">
+                <div class="description-writing"></div>
+            </div>
+            <div id="pdf-preview">
+                <p>select a document from the left to preview it here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back Button -->
+    <a href="../../index.html" class="back-button">back to home</a>
+
+    <script src="../scripts/pr3.js"></script>
+</body>
+</html>
