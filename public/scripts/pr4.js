@@ -1481,7 +1481,7 @@ principles that underlie natural phenomena.
 
 const pdfDescriptions = {
     "file 1.pdf": "This equation represents the total potential gravitational energy of a system of masses. The double sum is a straightforward way to sum all the potential energies of all the possible pairs of masses in the system.",
-    "file 2.pdf": "Description for file 2."
+    "file 2.pdf": "Sorry, I will publish this sheet soon."
 };
 
 let writingInterval = null;

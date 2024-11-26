@@ -166,4 +166,17 @@ header {
     .hero-subtitle {
         font-size: 1.2rem;
     }
+
+    .cursor {
+        display: none;
+    }
+
+    .cursor.dark {
+        display: none;
+    }
+
+    .cursor-trail {
+        display: none;
+    }
+
 }
