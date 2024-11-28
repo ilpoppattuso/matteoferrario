@@ -1353,7 +1353,7 @@ const media = {
         { 
             src: "../media/pr2/audios/3.dat", 
             type: "audio",
-            title: "the crisis",
+            title: "the crisis (modified version)",
             artist: "ennio morricone",
             date: "1982"
         },
@@ -1381,9 +1381,23 @@ const media = {
         {
             src: "../media/pr2/audios/7.dat", 
             type: "audio",
-            title: "bohemian rhapsody - first part arranged",
+            title: "bohemian rhapsody - first part (piano arrangement)",
             artist: "the queen",
             date: "1975"
+        },
+        {
+            src: "../media/pr2/audios/8.dat", 
+            type: "audio",
+            title: "inception - time (piano arrangement)",
+            artist: "hans zimmer",
+            date: "2019"
+        },
+        {
+            src: "../media/pr2/audios/9.dat", 
+            type: "audio",
+            title: "interstellar - main themes (piano arrangement)",
+            artist: "hans zimmer",
+            date: "2014"
         }
     ]
 };
