@@ -32,8 +32,8 @@ Contributions are welcome! Whether it's fixing bugs, suggesting new features, or
 
 
 ## License
-The projects in this repository are licensed under [Insert License Information Here]. Please see the LICENSE file for more details.
+The projects in this repository are licensed under GNU General Public License v3.0. Please see the LICENSE file for more details.
 
 
 ## Contact
-For any inquiries or questions about the repository or specific projects, feel free to reach out via GitHub Issues or email [your-email@example.com].
+For any inquiries or questions about the repository or specific projects, feel free to reach out via GitHub Issues or email matteo.fer07+github@gmail.com.
