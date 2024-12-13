@@ -12,7 +12,8 @@ Welcome to the repository for Matteo Ferrario's personal coding projects. This c
 * Project 1: Lexio's waitlist;
 * Project 2: Piano;
 * Project 3: Maths & Physics;
-* Project 4: This Portfolio.
+* Project 4: This Portfolio;
+* Project 5: Lexio app.
 
 
 ## Installation
