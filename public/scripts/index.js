@@ -64,11 +64,21 @@ const constellationStars = [
             image: "public/media/img/pr4.png", 
             url: "public/projects/pr4.html"
         }
+    },
+    {
+        x: 0.6, 
+        y: 0.82,
+        project: {
+            title: "Lexio app",
+            description: "the Lexio app, my biggest project so far",
+            image: "public/media/img/pr5.png", 
+            url: "public/projects/pr5.html"
+        }
     }
 ];
 
 const connections = [
-    [0, 1], [0, 2], [1, 3], [2, 3]
+    [0, 1], [0, 2], [1, 3], [2, 3], [2, 4], [3, 4]
 ];
 
 // Star Class with more pronounced visual style

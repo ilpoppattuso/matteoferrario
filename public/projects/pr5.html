@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5 - Application Showcase</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/pr5.css">
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <div class="left-panel">
+        <div class="file" data-type="readme">README.md</div>
+        <div class="file" data-type="website">website.html</div>
+        <div class="file" data-type="lexio">lexio.app</div>
+    </div>
+
+    <div class="right-panel">
+        <div class="content-box hidden" id="readme">
+            <div class="description-writing"></div>
+        </div>
+        <div class="content-box hidden" id="website">
+            <div class="description-writing">
+                <p>This is Project 1. Click the button below to open it in full screen.</p>
+                <button onclick="openProject1()">Open Project</button>
+            </div>
+        </div>
+        <div class="content-box hidden" id="lexio">
+            <div class="description-writing">
+                <p>Lexio is an innovative application for knowledge sharing and productivity improvement. You can open it <a href="https://www.lexio.me" target="_blank">here</a>.</p>
+                <div class="coming-soon">
+                    <p>Download page coming soon...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="../../index.html" class="back-button">back to home</a>
+
+    <script src="../scripts/pr5.js"></script>
+</body>
+</html>
